@@ -1,0 +1,16 @@
+1. Interface extends class     : Not Possible
+2. Interface extends Interface : Possible
+3. Interface implements Interface : Not Possible
+4. Class extends Interface : Not Possible
+5. Class implements Interface : Possible
+
+
+Using an Interface by class = Implements
+
+Using a parent class by class OR Interface by Interface = extends
+
+
+
+Interface can extend other Interface, they can not implements an Interface.
+
+Class can implemet Interface, can extend class as well.

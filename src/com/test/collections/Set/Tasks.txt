@@ -1,0 +1,29 @@
+1. Create a map of string, Integer fill 10 entries
+take out unique values
+print some of all unique values
+print average of all unique values
+
+
+2. Create a map of Integer, Integer fill 10 entries
+
+2.1 print sum of all keys
+    print sum of all values
+    same for average
+
+2.2 take out unique keys
+    take out unique values
+    print sum of all unique keys
+    print sum of all unique values
+
+    same for average
+
+
+3. Create a Map<String Integer>. take out all the string values
+
+   sort them and print all.
+
+   take out all the Integer values
+
+   eliminate duplicates from them
+
+   sort them and print all

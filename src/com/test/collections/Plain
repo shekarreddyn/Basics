@@ -1,0 +1,11 @@
+create a class with 10 employees id, name, salary, location, department, promotion.
+
+1) find out the employees who got promotion and whose salary more than 5000 and sort them based on salary
+2)   sort all employees based on salary
+3) Sort the employees who has taken promotion on salary based in descending order
+4) for who has not taken promotion sort them based on location
+
+ using map and set
+
+
+ 2)  Remove the duplicate names and sort based on salary

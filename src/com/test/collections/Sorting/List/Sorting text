@@ -1,0 +1,7 @@
+1) create a list of states with
+population, capital, rank, cm, bigcities, stateName;
+
+a) sort based on rank
+b)sort based onb number of big cities
+3) Separate states with more than 5 milliuon people and which are in India, sort based on rank
+

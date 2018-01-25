@@ -1,0 +1,6 @@
+1. Do the practise for TreeMap, TreeSet for primary types(Integer, String....)
+2. Do the same for type which can not be naturally compared (Person, Employee...)
+3. Do the practise for map methods map.get(key), map.keySet(), map.entrySet()....
+4. Do the practice for sorting of list
+5. Do the same for sets and find out duplicates counts while adding something to set.
+6. practice....practice...practice.....

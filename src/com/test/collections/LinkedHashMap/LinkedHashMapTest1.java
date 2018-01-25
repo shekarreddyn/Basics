@@ -22,9 +22,6 @@ public class LinkedHashMapTest1 {
         System.out.println("Insertion HashMap Complete : "+System.currentTimeMillis());
 
 
-
-
-
         Map<Integer, Integer> linkedHashMapTest = new LinkedHashMap<Integer, Integer>();
         System.out.println("Insertion LinkedHashMap Start : "+System.currentTimeMillis());
         for(int i = 0; i < 1000000; i++){

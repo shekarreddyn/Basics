@@ -1,0 +1,5 @@
+1. Abstract class can have abstract and abstract methods.
+2. if a class has atleast one abstract method then the class should be declared with abstract keyword
+3. It is okay to have an abstract class with zero abstract methods
+4. We cannot create an object of abstract class, there are two methods first the aninymous inner class implementatipon
+      by creating a reference of abstract class and object of child class

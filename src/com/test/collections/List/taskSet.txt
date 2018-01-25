@@ -1,0 +1,13 @@
+1. Create a Set of Integer values. store 10 values inside.
+   create a Map<Integer, String> have 10 entries inside map.
+   now, the set against map
+   for example :  uh have Set <1,2,3,4,5,6,7,8,9,10>
+   and uh have one of the map entry like key : 5 and value : "shekar"
+   so you got map entry for one of the set value.
+
+   1.1 so check for all the set values whether this map is having a matching value or not.
+   1.2 for non matching keys, put them in a seperate list. in the last print all those list values
+
+2. Create a list of integers.
+   Find out how many duplicates values it is having and print them all.
+   from non duplicate values, find out how many of them are even and how many of them are odd. print them all and count as well.
