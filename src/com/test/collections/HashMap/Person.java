@@ -10,6 +10,11 @@ public class Person implements Comparable<Person>{
         this.city = city;
     }
 
+    public String toString(){
+
+        return "Name : "+ this.getName() + "Age : "+this.getAge() + "City : "+this.getCity();
+    }
+
     public Person(){}
 
     private String name;

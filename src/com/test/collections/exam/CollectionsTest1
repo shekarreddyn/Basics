@@ -1,0 +1,23 @@
+1. American elections
+
+we have to maintain the result of elections with reference to main candidates only.
+
+Donald Trump        Arizona - Y,1000 Texas - N,3000 Seattle  Y,5000
+Hilery Cliniton     Arizona - N,1000 Texas - Y,3000 Seattle  N,5000
+
+1. list all the states where trump won
+2. list all the states where hilery won
+3. who won ? and by what margin ?
+4. print all the state names in US (only state names)
+
+
+Map<String, Map<String, Result>>
+
+Result  ->
+
+status
+margin
+
+
+
+Arizona   -> Result : status : y , margin:1000
