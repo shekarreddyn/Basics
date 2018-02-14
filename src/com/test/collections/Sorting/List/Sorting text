@@ -1,5 +1,5 @@
 1) create a list of states with
-population, capital, rank, cm, bigcities, stateName;
+population, capital, rank, cm, bigcities, result;
 
 a) sort based on rank
 b)sort based onb number of big cities

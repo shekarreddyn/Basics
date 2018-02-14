@@ -3,22 +3,22 @@ package com.test.collections.HashMap;
 public class Election {
 
 
-    private String stateName;
+    private String result;
     private int margin;
 
     public Election() {}
 
-    public Election(String stateName, int margin) {
+    public Election(String result, int margin) {
         super();
-        this.stateName = stateName;
+        this.result = result;
         this.margin = margin;
     }
 
-    public String getStateName() {
-        return stateName;
+    public String getResult() {
+        return result;
     }
-    public void setStateName(String stateName) {
-        this.stateName = stateName;
+    public void setResult(String result) {
+        this.result = result;
     }
     public int getMargin() {
         return margin;

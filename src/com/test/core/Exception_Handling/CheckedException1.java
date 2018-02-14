@@ -27,6 +27,7 @@ public class CheckedException1 {
         finally {
             try {
                 fileInput.close();
+
             } catch (IOException e) {
                 e.printStackTrace();
             }

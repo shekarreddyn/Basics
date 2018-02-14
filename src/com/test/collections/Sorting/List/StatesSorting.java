@@ -33,7 +33,7 @@ public class StatesSorting {
       });
 
         for (States state: statesList) {
-            System.out.println(state.getRank()+":"+ state.getStateName());
+            System.out.println(state.getRank()+":"+ state.getResult());
 
         }
 
@@ -58,7 +58,7 @@ public class StatesSorting {
         });
 
         for (States list: popularList) {
-            System.out.println(list.getRank()+":"+list.getStateName());
+            System.out.println(list.getRank()+":"+list.getResult());
         }*/
 
         // state = key , value = populatipon
