@@ -5,6 +5,7 @@ import java.util.*;
 
 public class MultiThreadTest6 extends Thread {
 
+
     public static void main(String[] args) {
 
         MultiThreadTest6 test1 = new MultiThreadTest6();
@@ -20,39 +21,32 @@ public class MultiThreadTest6 extends Thread {
         test3.start();
     }
 
-    public void run() {
-
-
-        for (int i = 0; i < 300; i++) {
+    public synchronized void run() {
+        List<Integer> numberList = new ArrayList<Integer>();
+        for ( int i = 1; i <= 300; i++) {
             if (currentThread().getName().equals("ThreadOne")) {
-                if (i < 100) {
+                if (i <= 100) {
 
                     System.out.println(currentThread().getName() + " :" + i);
                 }
-                if (i > 100) {
-                    currentThread().yield();
                 }
-            }
-            if (currentThread().getName().equals("ThreadTwo")) {
-                if (i < 200) {
+                if (currentThread().getName().equals("ThreadTwo")) {
+                    if (i > 100 && i<=200) {
 
-                    System.out.println(currentThread().getName() + " :" + i);
-                    if (i > 200) {
-                        currentThread().yield();
+                        System.out.println(currentThread().getName() + " :" + i);
                     }
                 }
-            }
 
-            if (currentThread().getName().equals("ThreadThree")) {
-                if (i < 300) {
+                if (currentThread().getName().equals("ThreadThree")) {
+                    if (i > 200) {
 
-                    System.out.println(currentThread().getName() + ":" + i);
+                        System.out.println(currentThread().getName() + ":" + i);
 
+                    }
                 }
+
             }
+
 
         }
-
-
     }
-}
