@@ -9,7 +9,8 @@ develop a map which stores countries with its states each and every state stores
 
   runs, wickets, no.of double centuries, country,
 
-  1) find out the batsman who has taken 100 wickets and also scored double century
+  1) find out the batsman who has taken more than 100 wickets and also scored double century
   2) find out the batsman from India who has total odi runs more than 5000
-  3) find out the bowler with max wickets and batsman with max runs from India
+  3) find out the bowler with max wickets and
+  batsman with max runs from India
   4)
