@@ -14,3 +14,13 @@ develop a map which stores countries with its states each and every state stores
   3) find out the bowler with max wickets and
   batsman with max runs from India
   4)
+
+
+//////////////////////////////////////////////////
+
+1) Maintain a collection which stores people by gender. now takeout female person and sort them based on their first name.
+
+2) from the above result find out how many females shares same first name.
+3) find out all the males from the collection and print the number of those who got same age
+4) from the above collection make a list of unique surnames.
+5) eliminate thse females who are under 18.now from the new collection print females 55.
